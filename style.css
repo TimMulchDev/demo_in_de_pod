@@ -6,3 +6,33 @@
 html {
     background: gold;
 }
+
+img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+div {
+    background: deepskyblue;
+}
+
+div#pink {
+    background: deeppink;
+}
+
+.green {
+    background: green;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    padding: 30px;
+}
